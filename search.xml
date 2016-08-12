@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[CSS笔记]]></title>
-      <url>https://ggygh.github.io/2016/07/02/css%E7%AC%94%E8%AE%B0/</url>
+      <url>https://uyong.github.io/2016/07/02/css%E7%AC%94%E8%AE%B0/</url>
       <content type="html"><![CDATA[<h3 id="CSS语法"><a href="#CSS语法" class="headerlink" title="CSS语法"></a>CSS语法</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">selector</span>&#123;</div><div class="line">    <span class="attribute">key</span>:value;</div><div class="line">    <span class="attribute">key</span>:value;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h4 id="示例：对所有的body标签使用该样式"><a href="#示例：对所有的body标签使用该样式" class="headerlink" title="示例：对所有的body标签使用该样式"></a>示例：对所有的body标签使用该样式</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">font-family</span>: Georgia, Palatino, serif;</div><div class="line">&#125;</div><div class="line">将继承<span class="selector-tag">body</span>中的其他属性(继承存在浏览器兼容性问题)</div><div class="line"><span class="selector-tag">p</span>, <span class="selector-tag">td</span>, <span class="selector-tag">ul</span>, <span class="selector-tag">ol</span>&#123;</div><div class="line">    <span class="attribute">color</span>: <span class="number">#ffffff</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <ol>
@@ -19,7 +19,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>https://ggygh.github.io/2016/06/30/hello-world/</url>
+      <url>https://uyong.github.io/2016/06/30/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
